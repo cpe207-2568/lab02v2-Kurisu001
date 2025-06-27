@@ -42,7 +42,7 @@ img {
   margin: 10px;
 }
 body{
-  background-image: url("/img/gradient-abstract-wireframe-background_23-2149009903.jpg");
+  background-image: url("../../img/gradient-abstract-wireframe-background_23-2149009903.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
