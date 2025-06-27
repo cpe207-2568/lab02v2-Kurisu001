@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo a {
+  padding-left: 70px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.contrainer {
+  max-width: 70vw;
+  margin: 0 auto;
+}
+.nav-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.12); /* โปร่งใส */
+  color: white;
+  backdrop-filter: blur(10px);
+}
+.nav-con a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.menu {
+  padding-right: 20px;
+  font-size: 18px;
+  font-weight: 800;
+}
+.menu a {
+  list-style: none;
+  padding: 16px;
+}
+img {
+  border-radius: 100%;
+  width: 20vw;
+  margin: 10px;
+}
+body{
+  background-image: url("/img/gradient-abstract-wireframe-background_23-2149009903.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.context{
+  display: flex;
+  height: 90vh;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 15%;
+  color: white;
+}
+.context-contract{
+  display: flex;
+  height: 90vh;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  color: white;
+}
+.Image{
+  padding: 10px;
+}
+.left{
+  align-items: center;
+}
+.left-info{
+  margin: 20px;
+  width: 500px;
+  padding: 30px;
+  text-align: left;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.12);
+}
+.right{
+  align-items: center;
+}
+.right-info{
+  text-align: left;
+  color: white;
+  font-size: 18px;
+  
+}
+.right-info h2{
+  text-align: center;
+  margin: 20px;
+}
+.left-info-contract{
+  justify-items: center;
+  margin: 40px;
+}
+.left-info-contract h3{
+  margin: 20px;
+}
+a {
+  color: #ffffff;         
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff66cc;         
+}
